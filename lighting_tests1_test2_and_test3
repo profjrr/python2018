@@ -1,0 +1,51 @@
+
+
+
+In [33]: runfile('C:/Users/jrree/.spyder-py3/lighting_code_verC.py', wdir='C:/Users/jrree/.spyder-py3')
+
+=== Testing My Assertions ===
+
+   Testing with an x value of 1
+
+with a positive value of 1 for test #1
+asserting x is greater than or equal to zero
+x is:  1
+
+
+   Testing with an x value of 0
+
+with a value of 0 for test #2
+asserting x is greater than or equal to zero
+x is:  0
+
+
+   xxx Testing with a negative x value of -1 -- never xxx
+
+xxx should never execute or occur xxx
+with a value of -1 for test #3
+Traceback (most recent call last):
+
+  File "<ipython-input-33-633d60e6e452>", line 1, in <module>
+    runfile('C:/Users/jrree/.spyder-py3/lighting_code_verC.py', wdir='C:/Users/jrree/.spyder-py3')
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py", line 705, in runfile
+    execfile(filename, namespace)
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py", line 102, in execfile
+    exec(compile(f.read(), filename, 'exec'), namespace)
+
+  File "C:/Users/jrree/.spyder-py3/lighting_code_verC.py", line 73, in <module>
+    testMyassertions(x)
+
+  File "C:/Users/jrree/.spyder-py3/lighting_code_verC.py", line 66, in testMyassertions
+    mainasertions(x)
+
+  File "C:/Users/jrree/.spyder-py3/lighting_code_verC.py", line 31, in mainasertions
+    assert(x>=0),("### x is not greater than or equal to zero")
+
+AssertionError: ### x is not greater than or equal to zero
+
+
+In [34]: 
+
+In [34]: 
