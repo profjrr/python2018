@@ -1,0 +1,21 @@
+In [31]: runfile('C:/Users/jrree/.spyder-py3/lighting_code_verC.py', wdir='C:/Users/jrree/.spyder-py3')
+
+=== Testing My Assertions ===
+
+   Testing with an x value of 1
+
+with a positive value of 1 for test #1
+asserting x is greater than or equal to zero
+x is:  1
+
+
+   Testing with an x value of 0
+
+with a value of 0 for test #2
+asserting x is greater than or equal to zero
+x is:  0
+
+
+
+
+In [32]: 
